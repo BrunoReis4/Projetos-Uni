@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<form action="#"><!--cria um formulário que será enviado a um endereço nulo (#, já que não tem banco de dados)-->
+			<label for="nome">Nome:</label><br /><!--legenda indicando o que a caixa de texto armazena-->
+			<input type="text" id="nome" name="nome" /><br /><!--formulario que armazena texto-->
+			<label for="email">Email:</label><br />
+			<input type="email" id="email" name="email" /><br /><!--mudando o type o tipo de formulário muda-->
+			<label for="fone">Telefone:</label><br />
+			<input type="password" id="fone" name="fone" /><br /><!--o tipo de formulario nao precisa estar associado a legenda, aqui um formulario que armazena senhas com legenda de telefone(não faça isso em programa sério)-->
+			<label for="mensagem">Mensagem:</label><br />
+			<textarea rows="7" cols="40" id="mensagem" name="mensagem"></textarea><br /><!--e um formulario de texto, que é possivel alterar seu tamanho-->
+			<input type="submit" value="Enviar" />
+		</form>
+	</body>
+</html>
